@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bimbingan Rumah Belajar.</title>
+    <link rel="stylesheet" href="tugasptik.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+           <div class="logo"><a href= ' '>PRESTASI+</a></div>
+           <div class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cources">Cources</a></li>
+                <li><a href="#tutors">Tutors</a></li>
+                <li><a href="#patners">Patners</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href=" " class="tbl-biru">Sign Up</a></li>
+            </ul>
+           </div>
+        </div>
+    </nav>
+    <div class="wrappper">
+        <!--untuk home-->
+        <section id="Home">
+            <img src="https://img.freepik.com/premium-vector/flat-tiny-study-finance-persons-concept_132971-183.jpg?semt=ais_hybrid"/>
+        <div class="kolom">
+            <p class="deskripsi">Selamat Datang di PRESTASI+:</p>
+            <h2>Raih Prestasi, Wujudkan Mimpi</h2>
+            <p>PRESTASI+ adalah platform bimbingan belajar online yang didedikasikan untuk membantu siswa dari berbagai jenjang untuk meraih prestasi terbaiknya</p>
+            <p><a href=""class="tbl-pink">Pelajari lebih lanjut</a></p>
+        </div>
+        </section>
+
+        <!--untuk course-->
+        <section id="Cources">
+            <div class="kolom">
+                <p class="deskripsi">You Will Need This</p>
+                <h2>Online Courses</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, saepe.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, saepe.</p>
+                <p><a href="" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
+            </div>
+            <img src="https://img.freepik.com/free-vector/online-tutorials-concept_52683-37480.jpg?ga=GA1.1.231294226.1733628243&semt=ais_hybrid"/>
+        </section>
+
+         <!--untuk course-->
+         <section id="Tutors">
+            <div class="tengah">
+                <div class="kolom">
+                <p class="deskripsi">Our Top Tutors</p>
+                <h2>Tutors</h2>
+                <p>Belajar langsung dengan tutor terbaik di bidangnya</p>
+                </div>
+
+                <div class="tutor-list">
+                    <div class="kartu-tutor">
+                        <img scr="https://assets.ladiestory.id/gallery/1639679402346590111-jerome-polin.jpg"/>
+                        <p>Jerome Polin</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img scr="https://cdn.idntimes.com/content-images/community/2021/11/1-cintalaura-a87b6a3195a565fb74506b7caf048797-7fae922d24f7bdf143c112398dae46bd.jpg"/>
+                        <p>Cinta Laura </p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img scr="https://www.tagar.id/Asset/uploads2019/1603374536224-maudy-ayunda.jpeg"/>
+                        <p>Maudy Ayunda</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img scr="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/844/2024/07/02/TW-2852680941.jpg"/>
+                        <p>Sandy Kristian</p>
+                    </div>
+                </div>
+    </div>
+</body>
+</html>
