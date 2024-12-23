@@ -1,0 +1,72 @@
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #3a7ed6;
+            margin: 0;
+            padding: 50px;
+        }
+
+        .container {
+            max-width: 650px;
+            margin: auto;
+            background: #d80a0a(111, 167, 231);
+            padding: 50px;
+            border-radius: 8px;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.0);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="tel"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        textarea {
+            height: 80px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #3f72af;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #3b5a8c;
+        }
+
+        .required {
+            color: red;
+
+         img {
+          img {
+            max-width: 50%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+         }   
+        }
+    </style>
+</head>
+<body>
