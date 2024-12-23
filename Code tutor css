@@ -1,0 +1,37 @@
+a.tbl-biru, a.tbl-pink {
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-weight: bold;
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+}
+
+a.tbl-biru {
+    background: #81d4fa; /* Light blue button */
+    color: #ffffff; /* White text */
+}
+
+a.tbl-biru:hover {
+    background: #4db6e4; /* Slightly darker blue on hover */
+}
+
+a.tbl-pink {
+    background: #ff4081; /* Pink button */
+    color: #ffffff; /* White text */
+}
+
+a.tbl-pink:hover {
+    background: #d81b60; /* Darker pink on hover */
+}
+
+p {
+    margin: 10px 0;
+    padding: 10px 0;
+    color: #ffffff; /* White text for paragraphs */
+}
+
+.tengah {
+    text-align: center;
+}
