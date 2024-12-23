@@ -1,0 +1,37 @@
+<!-- untuk tutors -->
+<section id="tutors">
+    <div class="tengah">
+        <div class="kolom">
+            <p class="deskripsi">Tutor Terbaik Kami</p>
+            <h2>Tutor</h2>
+            <p>Dengan panduan tutor ahli kami, Anda akan bisa membangun aplikasi pertama Anda dalam waktu singkat! Belajar coding lebih cepat, hasil lebih nyata</p>
+        </div>
+
+        <div class="tutor-list">
+            <div class="kartu-tutor">
+            <img src="https://i.ibb.co.com/jD75L89/Whats-App-Image-2024-12-08-at-03-23-34.jpg" alt="Nabilah">
+            <p class="tutor-nama"onclick="toggleRiwayat(this)">Nabilah</p>
+            <p class="riwayat-pendidikan" style="display: none;">Riwayat Pendidikan: S2 Teknik Informatika, Universitas Gajah Mada</p>
+        </div>
+        <div class="kartu-tutor">
+            <img src="https://i.ibb.co.com/Pzv7dzb/Whats-App-Image-2024-12-08-at-02-52-01.jpg" alt="Miftah Durotu Hani">
+            <p class="tutor-nama" onclick="toggleRiwayat(this)">Miftah Durotu Hani</p>
+            <p class="riwayat-pendidikan" style="display: none;">Riwayat Pendidikan: S2 Ilmu Komputer, Universitas Diponegoro</p>
+        </div>
+        <div class="kartu-tutor">
+            <img src="https://i.ibb.co.com/znQnWR8/Whats-App-Image-2024-12-08-at-03-11-47.jpg" alt="Irawati">
+            <p class="tutor-nama" onclick="toggleRiwayat(this)">Irawati</p>
+            <p class="riwayat-pendidikan" style="display: none;">Riwayat Pendidikan: S2 Sistem Informasi, Universitas Airlangga</p>
+        </div>
+    </div>
+    
+    <script>
+    function toggleRiwayat(element) {
+        const riwayat = element.nextElementSibling;
+        if (riwayat.style.display === "none" || riwayat.style.display === "") {
+            riwayat.style.display = "block";
+        } else {
+            riwayat.style.display = "none";
+        }
+    }
+    </script>
