@@ -1,0 +1,28 @@
+<!-- untuk Kontak -->
+</div>
+<div id="kontak">
+    <div class="wrapper">
+        <div class="footer">
+            <div class="footer-section">
+                <h3>Kontak</h3>
+                    <p>WhatsApp:
+                    Klik untuk chat langsung: <a href="https://wa.me/6281234567890">WhatsApp</a>
+                    Kami siap membantu Anda kapan saja! Jangan ragu untuk menghubungi kami jika ada pertanyaan atau informasi lebih lanjut. 😊</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Media Sosial</h3>
+                    <p>YouTube: <a href="https://www.youtube.com/@ProgrammingdiRumahPintar" target="_blank">@ProgrammingdiRumahPintar</a></p>
+                    <p>Instagram: <a href="https://www.instagram.com/kursusprogramming" target="_blank">@kursusprogramming</a></p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/company/kursus-programming-online" target="_blank">Kursus Programming Online</a></p>
+                </div>
+            </div>
+        </div>
+
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2024. <b>RumahPintar.</b> All Rights Reserved.
+        </div>
+    </div>
+
+</body>
+</html>
