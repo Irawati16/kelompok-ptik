@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming di RumahPintar.</title>
+    <link rel="stylesheet" href="CODE MENU DAFTAR.css">
+</head>
+<body>
+    <nav>
+ <div class="container">
+    <h2>Daftar Sekarang</h2>
+    <form>
+        <img src="https://i.ibb.co.com/RNrHbNg/Whats-App-Image-2024-12-11-at-20-37-00-1.jpg" alt="Whats-App-Image-2024-12-11-at-20-37-00-1</a>"
+        <label for="nama_depan">Nama Depan* <span class="required">Please complete this required field.</span></label>
+        <input type="text" id="nama_depan" name="nama_depan" required>
+
+        <label for="nama_belakang">Nama Belakang* <span class="required">Please complete this required field.</span></label>
+        <input type="text" id="nama_belakang" name="nama_belakang" required>
+
+        <label for="nomor_telepon">Nomor Telepon* <span class="required">Please complete this required field.</span></label>
+        <input type="tel" id="nomor_telepon" name="nomor_telepon" required>
+
+        <label for="email">Email* <span class="required">Please complete this required field.</span></label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="pilihan_area">Pilihan Area* <span class="required">Please complete this required field.</span></label>
+        <select id="pilihan_area" name="pilihan_area" required>
+            <option value="">Please Select</option>
+            <option value="area1">Area 1</option>
+            <option value="area2">Area 2</option>
+            <option value="area3">Area 3</option>
+        </select>
+
+        <label for="alamat">Alamat* <span class="required">Please complete this required field.</span></label>
+        <textarea id="alamat" name="alamat" required></textarea>
+
+        <label for="subjek_pertanyaan">Subjek Pertanyaan*</label>
+        <select id="subjek_pertanyaan" name="subjek_pertanyaan">
+            <option value="pendaftaran">Pendaftaran</option>
+            <option value="informasi_kelas">Informasi Kelas</option>
+            <option value="subjek">Subjek</option>
+            <option value="biaya">Biaya-biaya</option>
+            <option value="kumon_connect">RumahPintar</option>
+            <option value="lainnya">Lainnya, tuliskan:</option>
+        </select>
+
+        <label for="lainnya">Lainnya:</label>
+        <input type="text" id="lainnya" name="lainnya">
+
+        <label>Darimana Anda mendapatkan info tentang Kumon?*</label>
+        <label><input type="radio" name="info_sumber" value="spanduk"> Spanduk</label>
+        <label><input type="radio" name="info_sumber" value="brosur"> Brosur</label>
+        <label><input type="radio" name="info_sumber" value="website"> Website</label>
+        <label><input type="radio" name="info_sumber" value="media_sosial"> Media Sosial</label>
+        <label><input type="radio" name="info_sumber" value="teman"> Teman</label>
+
+        <label for="persetujuan">
+            <input type="checkbox" id="persetujuan" name="persetujuan" required>
+            Saya menyetujui penggunaan data pribadi saya untuk tujuan berikut (Bimbingan Siswa, Operasional Kelas, Pembaruan pada produk/layanan baru)*
+        </label>
+
+        <button type="submit">Daftar</button>
+    </form>
+</div>
+
+</body>
+</html>
