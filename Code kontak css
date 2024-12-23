@@ -1,0 +1,25 @@
+#contact {
+    background: #36bfc4; /* Teal background for contact section */
+    padding: 50px 20px;
+    text-align: center;
+    color: white; /* White text */
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #4db6e4; /* Light blue for footer */
+    color: rgb(14, 13, 13);
+    padding: 20px 0;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+}
+
+h3 {
+    font-family: 'Comic Sans MS', cursive;
+    font-weight: 800;
