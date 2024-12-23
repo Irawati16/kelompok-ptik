@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming di RumahPintar.</title>
+    <link rel="stylesheet" href="halaman.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href=''>RumahPintar.</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="tugasptik.html">Halaman</a></li>
+                    <li><a href="halaman.html">Kursus</a></li>
+                    <li><a href="tutor.html">Tutor</a></li>
+                    <li><a href="#mitra">Mitra</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                    <li><a href="" class="tbl-biru">Daftar</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- untuk courses -->
+<section id="courses">
+    <div class="kolom">
+        <p class="deskripsi">Belajar Coding Secara Online
+            Mulai dari Dasar hingga Mahir!</p>
+        <h2>KURSUS ONLINE</h2>
+        <p>Kami menawarkan kursus programming online yang dirancang untuk semua tingkat keahlian, mulai dari pemula hingga profesional. Dengan metode belajar yang fleksibel, materi interaktif, dan bimbingan langsung dari mentor berpengalaman, Anda dapat menguasai berbagai bahasa pemrograman seperti Python, Java, HTML, dan lainnya.</p>
+        <p>Belajar dari mana saja, kapan saja, dan bangun keterampilan untuk menciptakan aplikasi, website, hingga proyek teknologi yang inovatif. Dapatkan sertifikat resmi dan bersiaplah untuk karier di dunia teknologi!</p>
+        <p><a href="" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
+    </div>
+    <img src="https://img.freepik.com/free-vector/online-learning-isometric-concept_1284-17947.jpg?size=626&ext=jpg&ga=GA1.2.1769275626.1605867161"/>
+</section>
