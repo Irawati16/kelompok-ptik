@@ -1,0 +1,46 @@
+<!-- Untuk biaya kursus -->
+<section id="biaya">
+    <div class="tengah">
+        <h2>Biaya Kursus</h2>
+        <p>Kami menyediakan beberapa pilihan biaya untuk fleksibilitas belajar Anda:</p>
+        
+        <div class="kotak-biaya" onclick="toggleInfo('infoIndramayu')" style="background-color: #01e7f7; padding: 15px; border-radius: 5px; cursor: pointer; margin-bottom: 10px;">
+            Klik Area 1: Indramayu
+        </div>
+        <div id="infoIndramayu" class="info-biaya" style="display: none; margin-top: 10px;">
+            <p><strong>Biaya Pendaftaran:</strong> Rp.350.000</p>
+            <p><strong>Biaya Kursus Bulanan:</strong></p>
+            <ul>
+                <li>SMP-SMA: Rp.575.000</li>
+                <li>Mahasiswa: Rp.1.000.000</li>
+            </ul>
+        </div>
+        
+        <div class="kotak-biaya" onclick="toggleInfo('infoCirebon')" style="background-color: #01e7f7; padding: 15px; border-radius: 5px; cursor: pointer;">
+            Klik Area 2: Cirebon
+        </div>
+        <div id="infoCirebon" class="info-biaya" style="display: none; margin-top: 10px;">
+            <p><strong>Biaya Pendaftaran:</strong> Rp.450.000</p>
+            <p><strong>Biaya Kursus Bulanan:</strong></p>
+            <ul>
+                <li>SMP-SMA: Rp.600.000</li>
+                <li>Mahasiswa: Rp.1.200.000</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<p class="note">Efektif per 1 Januari 2025.</p>
+<p class="note">Catatan:</p>
+<ul class="note">
+    <li>Biaya pendaftaran dibayarkan satu kali pada saat pertama kali mendaftar di Rumah Pintar.</li>
+    <li>Biaya kursus bulanan adalah biaya per subjek per siswa dan mahasiswa.</li>
+</ul>
+<p class="note">Contoh: Jika seorang siswa SMA (Indramayu) mengambil program Python, Java, dan HTML, total yang dibayarkan adalah Rp.2.075.000 (termasuk biaya pendaftaran).</p>
+
+<script>
+    function toggleInfo(infoId) {
+        const infoDiv = document.getElementById(infoId);
+        infoDiv.style.display = infoDiv.style.display === 'none' || infoDiv.style.display === '' ? 'block' : 'none';
+    }
+</script>
