@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alamat RumahPintar</title>
+    <link rel="stylesheet" href="menu lokasi.css">
+</head>
+<body>
+    <header>
+        <h1>Alamat RumahPintar</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="location-list">
+                <div class="location-item">
+                    <div class="number">1</div>
+                    <div class="details">
+                        <h3>INDRAMAYU</h3>
+                        <p>Jl. Raya Lohbener Lama, Desa Lohbener, Kecamatan Lohbener, Kabupaten Indramayu</p>
+                        <p>0234-5746-464</p>
+                        <button>Get Direction</button>
+                    </div>
+
+                </div>
+                <div class="location-item">
+                    <div class="number">2</div>
+                    <div class="details">
+                       <h3>CIREBON</h3>
+                       <p>Jl. Terusan Sekar Kemuning, Karyamulya, Kec. Kesambi, Kota Cirebon, Jawa Barat 45135</p>
+                       <p>0234-5746-464</p>
+                       <button>Get Direction</button>
+                </div>
+            </div>
+
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.8880908169504!2d108.27887677414988!3d-6.40841469358231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6eb87d1fcaf97d%3A0x4fc15b3c8407ada4!2sPoliteknik%20Negeri%20Indramayu!5e0!3m2!1sid!2sid!4v1735029120652!5m2!1sid!2sid" width="600" height="650" style="border: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          
+    </main>
+    <footer>
+        <p>&copy; 2024 Alamat RumahPintar</p>
+    </footer>
+</body>
+</html>
