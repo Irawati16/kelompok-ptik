@@ -1,0 +1,33 @@
+.tengah {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.kotak-biaya {
+    background-color: #01e7f7; /* Warna latar belakang */
+    padding: 15px; /* Ruang dalam */
+    border-radius: 5px; /* Sudut bulat */
+    cursor: pointer; /* Kursor saat hover */
+    margin-bottom: 10px; /* Jarak bawah */
+    border: 1px solid #00bcd4; /* Border untuk kotak */
+}
+
+.info-biaya {
+    display: none; /* Tersembunyi secara default */
+    margin-top: 10px; /* Jarak atas */
+    padding: 10px; /* Ruang dalam */
+    border: 1px solid #00bcd4; /* Border untuk informasi */
+    border-radius: 5px; /* Sudut bulat */
+    background-color: #e0f7fa; /* Warna latar belakang untuk informasi */
+}
+
+.note {
+    margin-top: 15px; /* Jarak atas untuk catatan */
+    font-size: 0.9em; /* Ukuran font lebih kecil */
+}
