@@ -14,9 +14,12 @@
                 <ul>
                     <li><a href="tugasptik.html">Halaman</a></li>
                     <li><a href="halaman.html">Kursus</a></li>
+                    <li><a href="biayakursus.html">Biaya Kursus</a></li>
                     <li><a href="tutor.html">Tutor</a></li>
-                    <li><a href="#mitra">Mitra</a></li>
-                    <li><a href="#kontak">Kontak</a></li>
+                    <li><a href="mitra.html">Mitra</a></li>
+                    <li><a href="tentangkami.html">Tentang Kami</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                    <li><a href="alamat.html">Alamat</a></li>
                     <li><a href="" class="tbl-biru">Daftar</a></li>
                 </ul>
             </div>
