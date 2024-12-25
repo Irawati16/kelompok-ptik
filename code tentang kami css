@@ -1,0 +1,142 @@
+*{
+    text-decoration: none;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #000000;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #81BFDA;
+    z-index: 1;
+    border-bottom:1px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.class .kolom{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin: 30px;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+    color: #364f6b;
+    width: 100%;
+    line-height: 30px;
+}
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    background: #3f72af;
+    color: #ffffff ;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Open Sans',sans-serif;;
+    font-weight: 20;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #3f72af;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+    
+    .kartu-partner {
+        width: 20%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        size: 1100px;
+    }
+    
+    .kartu-partner img {
+        width: 200px;
+        margin: 0 auto;
+        border-radius: 100%;
+    }
